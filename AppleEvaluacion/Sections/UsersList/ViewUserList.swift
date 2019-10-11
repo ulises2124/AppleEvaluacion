@@ -19,7 +19,7 @@ final class ViewUserList: UITableViewController {
     private let header = Strings.header.rawValue
     private var dataSource: [User]?
             
-            override func viewDidLoad() {
+    override func viewDidLoad() {
             super.viewDidLoad()
             setupTableView()
             }

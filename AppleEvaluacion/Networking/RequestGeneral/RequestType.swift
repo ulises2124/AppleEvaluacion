@@ -7,6 +7,10 @@
 //
 
 import Foundation
+// MARK: REQUEST TYPE
+// el protocolo extendie su funcionalidad para que al implementarlo en una struct le permita pasar parametros y parsear cualquier json a una struct de cualquier tipo.
+// associeatedtype es un tipo en swift para soportar abtraccion de mutiples tipos que en orientado a objetos en subtipos no esta permitido.
+
 public protocol RequestType {
     associatedtype ResponseType: Codable
     var data: RequestData { get }

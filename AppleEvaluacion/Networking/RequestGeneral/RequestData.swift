@@ -7,6 +7,9 @@
 //
 
 import Foundation
+
+// MARK: REQUEST DATA
+// struct del cuerpo del request para peticiones HTTP
 public struct RequestData {
     public let path: String
     public let method: HTTPMethod
