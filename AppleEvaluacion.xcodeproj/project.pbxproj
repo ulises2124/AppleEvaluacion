@@ -29,7 +29,6 @@
 		FAD9F6D3234FC0400068CC32 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9F6D2234FC0400068CC32 /* Strings.swift */; };
 		FAD9F6D5234FD13A0068CC32 /* ViewUserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9F6D4234FD13A0068CC32 /* ViewUserList.swift */; };
 		FAD9F6D7234FD1A20068CC32 /* CellUserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9F6D6234FD1A20068CC32 /* CellUserList.swift */; };
-		FAD9F6D9234FD3700068CC32 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD9F6D8234FD3700068CC32 /* arrow.png */; };
 		FAD9F6DB234FDBD90068CC32 /* ViewDetailUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9F6DA234FDBD90068CC32 /* ViewDetailUser.swift */; };
 		FAD9F6DD234FF6AC0068CC32 /* profileApp.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD9F6DC234FF6AC0068CC32 /* profileApp.png */; };
 /* End PBXBuildFile section */
@@ -80,7 +79,6 @@
 		FAD9F6D2234FC0400068CC32 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		FAD9F6D4234FD13A0068CC32 /* ViewUserList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewUserList.swift; sourceTree = "<group>"; };
 		FAD9F6D6234FD1A20068CC32 /* CellUserList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellUserList.swift; sourceTree = "<group>"; };
-		FAD9F6D8234FD3700068CC32 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		FAD9F6DA234FDBD90068CC32 /* ViewDetailUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDetailUser.swift; sourceTree = "<group>"; };
 		FAD9F6DC234FF6AC0068CC32 /* profileApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profileApp.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,7 +139,6 @@
 				FAC367BB234F8AA600E08BAB /* Main.storyboard */,
 				FAC367BE234F8AA800E08BAB /* Assets.xcassets */,
 				FAD9F6DC234FF6AC0068CC32 /* profileApp.png */,
-				FAD9F6D8234FD3700068CC32 /* arrow.png */,
 				FAD9F6D0234FB3520068CC32 /* apple.png */,
 				FAC367C0234F8AA800E08BAB /* LaunchScreen.storyboard */,
 				FAC367C3234F8AA800E08BAB /* Info.plist */,
@@ -343,7 +340,6 @@
 				FAC367BF234F8AA800E08BAB /* Assets.xcassets in Resources */,
 				FAD9F6D1234FB3520068CC32 /* apple.png in Resources */,
 				FAD9F6DD234FF6AC0068CC32 /* profileApp.png in Resources */,
-				FAD9F6D9234FD3700068CC32 /* arrow.png in Resources */,
 				FAC367BD234F8AA600E08BAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

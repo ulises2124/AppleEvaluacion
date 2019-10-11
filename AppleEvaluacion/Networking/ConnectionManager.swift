@@ -10,7 +10,6 @@ import Foundation
 
 // MARK: ProtocolNewtworkManager
 // utilizamos la funcion dispatch en el protocolo para implementarla a la hora de lanzar cualquier peticion, junto a sus 2 callbacks de error y success. Haciendo uso del manejador de conexiones nativos de swift. Siempre se regresa una sola instancia de esta struct.
-//Usamos Structs en lugar de clases para hacerlo mas flexible, reusable sin quitarle escalamiento y funcionalidad al codigo.
 
 public protocol ProtocolNewtworkManager {
     func dispatch(request: RequestData, onSuccess: @escaping (Data) -> Void, onError: @escaping (Error) -> Void)

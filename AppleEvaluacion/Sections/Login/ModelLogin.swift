@@ -8,12 +8,21 @@
 
 import Foundation
 
+// MARK: Structs Codables
+//nos permiten la trasnperencia de datos entre un objeto o json con sus propiedades y campos.
+
 struct LoginToken: Codable {
     let token: String
 }
 
 // MARK: Structs de RequestType
-// estamos usando structs como funciones para crear el modelo de la peticion, al implementar todas el protocolo RequestType tienen la funcionalidad de crear sus peticiones https. Se podria hacer con objetos pero finalmente las structs son nativas de swift.
+/*  estamos usando structs como funciones para crear el modelo de la peticion, al implementar todas el protocolo RequestType tienen la funcionalidad de crear sus peticiones https.
+ 
+     3 pasos muy simples para llamar una peticion y parsear
+ 1 ) declara una struct Codable para to json.
+ 2) declara una struct para tu llamada que implemente el portocolo RequestType.
+ 3 ) ejecuta.
+ */
 struct DoLogin: RequestType {
     var parameters: [String : Any]?
     typealias ResponseType = LoginToken

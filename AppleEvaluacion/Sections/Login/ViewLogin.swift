@@ -12,6 +12,7 @@ class ViewLogin: UIViewController {
     
     // MARK: VIEW LOGIN
     //toda la UI esta creada con codigo para hacerla mas eficiente y tener mas control de los elementos. Se intancian los controladores para pasar datos y hacer llamadas a los modelos de la capa de servicios.
+   
     //el uso de variables lazy son para mejorar el rendimineto de memoria y apuntar a ellas solo cuando son llamadas o utilizadas.
     
     //VARIABLES DE INSTANCIA
