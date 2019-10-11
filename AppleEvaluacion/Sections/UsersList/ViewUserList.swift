@@ -65,7 +65,7 @@ final class ViewUserList: UITableViewController {
         }
     }
 
-    // Clase del Header PERSONALIZADA de la Tabla
+    // Clase del Header personalizada de la Tabla
     class HeaderTable: UIView {
         private let title = Strings.tittleUsuarios.rawValue
         override init(frame: CGRect) {

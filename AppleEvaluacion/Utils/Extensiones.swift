@@ -16,15 +16,13 @@ extension Error {
 }
 //UIIMAGE
 extension UIImage {
-
     convenience init?(url: URL?) {
         guard let url = url else { return nil }
-
         do {
             let data = try Data(contentsOf: url)
             self.init(data: data)
         } catch {
-            print("Cannot load image from url: \(url) with error: \(error)")
+            print("fallo la descarga de imagen \(url) error: \(error)")
             return nil
         }
     }
